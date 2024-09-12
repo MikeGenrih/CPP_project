@@ -1,0 +1,39 @@
+# Ігноруємо всі файли, створені компілятором
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ігноруємо тимчасові файли
+*.log
+*.tmp
+*.swp
+*~
+
+# Ігноруємо файли середовищ розробки
+# Для Visual Studio
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+
+# Для CLion (JetBrains)
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Для Makefile
+Makefile
+
+# Ігноруємо скомпільовані бібліотеки та бінарні файли
+bin/
+lib/
+build/
+
+# CMake файли
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
